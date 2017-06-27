@@ -1,6 +1,6 @@
 language: elixir
 elixir:
-  - 1.4.5
- notifications:
-    slack: blackcoffeestudios:S96sDjLXGC2O7n6qJyPrC2uK
-    
+- 1.4.5
+notifications:
+  slack:
+    secure: BSaWbWPs9FJRzJI/jQ0g+7jv2DJNXwVooX8ZDH6+AYFsloLdV4y3Ko2aF6An2PYwKgBYU8cyAY8bYtkUgCgK9BA+llHbNtrtKPHQWlh/XTjUJ3+NvbcxrNoaoNS6WZR2q7QVUpPhvwET7D1IH9bb4nBKxC/BQK1U6c8hdZORtX+6rvSgn6ID8vrZDhDOdxvTUJdV5NccbJRLk+Xj9X+1eFs08935A/P9tu22uzmzYuP36rEmQ6qGvaGoXRUEk9GIM8ZUUBUHcjXl05VVDPQbO7NLsdJNJebQM88f699WI5mRc6/Tzx9h36+v6NkvuR3EKSRG5NdtMH5spWrkLRGTNLY2+egva4u66jUdcEXQe4R3asF12c47UVd7IDxVullLnWxWTkT0ukxunonlQZzmVPYZXkO6h5UC8hcBNXATljeuUlx1JUMinVn7MZn88nv3AyAV90mG00Vxq/G2BIUx3Y9KUuN61Fc4nmPj+qXzWsdoyhiXgqkVr2XrftuQqkIA2xm4pmYVKp6/k9S8bgpoNmk/llZ15xeDKackjrl4uc31qGA02/l7OQw1J7wIPJhupUBJej5Jy2mONmqUzP2XIVLk7wCV6egkiosaes/rQumVwL3+GFz0hw/t78yc/6osNbcb5QTq9W96U4tx5wVm6E/exrIBJ3E4Per9N8f2DQA=
