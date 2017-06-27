@@ -12,7 +12,6 @@ env:
   - MIX_ENV=test
 
 before_script:
-  - psql -c 'create database kikr_test;' -U postgres
   - mix do ecto.create, ecto.migrate
 
 services:

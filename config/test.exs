@@ -12,8 +12,8 @@ config :logger, level: :warn
 # Configure your database
 config :kikr, Kikr.Repo,
   adapter: Ecto.Adapters.Postgres,
-  username: "postgres",
+  username: "travis",
   password: "",
-  database: "kikr_test",
+  database: "travis",
   hostname: "localhost",
   pool: Ecto.Adapters.SQL.Sandbox
