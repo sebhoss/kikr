@@ -1,0 +1,7 @@
+defmodule Kikr.PageController do
+  use Kikr.Web, :controller
+
+  def index(conn, _params) do
+    render conn, "index.html"
+  end
+end
