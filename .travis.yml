@@ -14,9 +14,6 @@ env:
 before_script:
   - mix do ecto.create, ecto.migrate
 
-services:
-  - postgresql
-
 addons:
   postgresql: "9.6"
 
