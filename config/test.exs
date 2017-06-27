@@ -13,7 +13,7 @@ config :logger, level: :warn
 config :kikr, Kikr.Repo,
   adapter: Ecto.Adapters.Postgres,
   username: "postgres",
-  password: "postgres",
+  password: "",
   database: "kikr_test",
   hostname: "localhost",
   pool: Ecto.Adapters.SQL.Sandbox
