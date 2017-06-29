@@ -58,4 +58,12 @@ config :logger, level: :info
 
 # Finally import the config/prod.secret.exs
 # which should be versioned separately.
-import_config "prod.secret.exs"
+#import_config "prod.secret.exs"
+
+config :kikr, Kikr.Repo,
+  adapter: Ecto.Adapters.Postgres,
+  username: System.get_env("DB_USER"),
+  password: System.get_env("DB_PASS"),
+  database: System.get_env("DB_NAME"),
+  hostname: System.get_env("DB_HOST"),
+  pool_size: String.to_integer(System.get_env("DB_POOL") || "10"),
