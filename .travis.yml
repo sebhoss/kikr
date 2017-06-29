@@ -9,7 +9,7 @@ otp_release:
   - 20.0
 
 env:
-  - MIX_ENV=travis
+  - MIX_ENV=test
 
 before_script:
   - mix do ecto.create, ecto.migrate
