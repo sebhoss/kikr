@@ -66,4 +66,4 @@ config :kikr, Kikr.Repo,
   password: System.get_env("DB_PASS"),
   database: System.get_env("DB_NAME"),
   hostname: System.get_env("DB_HOST"),
-  pool_size: 10
+  pool_size: String.to_integer(System.get_env("DB_POOL") || "10")
