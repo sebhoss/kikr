@@ -1,4 +1,4 @@
-FROM elixir:1.4.5 AS buildtime
+FROM elixir:1.4.5
 COPY . /project
 WORKDIR /project
 ENV MIX_ENV=prod
@@ -13,11 +13,4 @@ RUN curl -sL https://deb.nodesource.com/setup_8.x | bash - \
     && brunch build --production \
     && mix phoenix.digest
 
-FROM elixir:1.4.5 AS runtime
-ENV MIX_ENV=prod
-WORKDIR /run
-COPY --from=buildtime /project/ .
-RUN mix local.hex --force \
-    && mix local.rebar --force \
-    && mix deps.get --only prod
 ENTRYPOINT ["mix", "do", "ecto.create,", "ecto.migrate,", "phoenix.server"]
