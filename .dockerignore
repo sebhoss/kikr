@@ -1,0 +1,3 @@
+# list files/folders that are not supposed to end up in the docker container
+_build/
+deps/
