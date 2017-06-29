@@ -24,4 +24,11 @@ Ready to run in production? Please [check our deployment guides](http://www.phoe
 ```
 # build docker image
 $ docker build --tag sebhoss/kikr:latest .
+
+# start postgres database
+$ docker-compose up -d postgres
+
+# build & start kikr app
+$ docker-compose up [-d] kikr
+# visit http://localhost:50123/
 ```
