@@ -53,9 +53,6 @@ services:
     ports:
       - "5432:5432"
   kikr:
-    build:
-      context: .
-      dockerfile: Dockerfile
     image: sebhoss/kikr:latest
     environment:
       PORT: 8080
@@ -70,3 +67,7 @@ services:
 ```
 
 Once started, open http://localhost:50123/ to view the app.
+
+## Try it online
+
+* http://kikr-sebhoss.rhcloud.com/
