@@ -70,3 +70,4 @@ services:
 ## Try it online
 
 * http://kikr-sebhoss.rhcloud.com/
+* https://go-kikr.herokuapp.com/
