@@ -39,7 +39,8 @@ In order to run the latest release version using docker-compose, do the followin
 
 1. Create a `docker-compose.yml` anywhere you want
 2. Place the below example configuration into it and optionally adapt it to your needs
-3. Call `docker-compose up -d` in the same directory
+3. Call `docker-compose up -d db-psql` in the same directory and wait for the datbase to start
+4. Call `docker-compose up -d kikr` and open http://localhost:50123/ to view the app
 
 ```
 version: '3'
@@ -65,8 +66,6 @@ services:
     ports:
       - "50123:8080" 
 ```
-
-Once started, open http://localhost:50123/ to view the app.
 
 ## Try it online
 
