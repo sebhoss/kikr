@@ -29,7 +29,7 @@ $ docker build --tag sebhoss/kikr:latest .
 $ docker-compose up -d postgres
 
 # build & start kikr app
-$ docker-compose up [-d] kikr
+$ docker-compose up -d kikr
 # visit http://localhost:50123/
 ```
 
