@@ -1,1 +1,16 @@
 /* This file is for your main application css. */
+
+/* home page */
+.title-logo {
+    width: 200px;
+}
+
+.title-page {
+    background-color: white;
+}
+
+.title-input {
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}

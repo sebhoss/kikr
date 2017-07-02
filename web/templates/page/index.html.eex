@@ -1,6 +1,13 @@
-<div class="jumbotron">
+<div class="jumbotron title-page">
   <h2><%= gettext "Welcome to %{name}", name: "kikr!" %></h2>
-  <h3 class="lead">The table football<br />ranking system</h3>
+  <img src="/images/kikr-logo.png" alt="kikr-logo" class="title-logo"></img>
+  <h3 class="lead">The table football<br/>ranking system</h3>
+  <div class="form-group">
+    <input type="text" class="form-control title-input" placeholder="username" id="user">
+  </div>
+  <div class="form-group">
+    <input type="password" class="form-control title-input" placeholder="password" id="password">
+  </div>
   <h5>black coffee studios</h5>
   <h5>say <a href="">hello</a></h5>
 </div>
