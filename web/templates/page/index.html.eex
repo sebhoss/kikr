@@ -1,4 +1,6 @@
 <div class="jumbotron">
   <h2><%= gettext "Welcome to %{name}", name: "kikr!" %></h2>
-  <p class="lead">A web app that ranks table<br />football players amongst each other.</p>
+  <h3 class="lead">The table football<br />ranking system</h3>
+  <h5>black coffee studios</h5>
+  <h5>say <a href="">hello</a></h5>
 </div>
