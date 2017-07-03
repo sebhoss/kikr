@@ -31,6 +31,10 @@ $ docker-compose up -d postgres
 # build & start kikr app
 $ docker-compose up -d kikr
 # visit http://localhost:50123/
+
+# pull latest version from docker hub
+$ docker pull sebhoss/kikr:latest
+$ docker-compose restart
 ```
 
 ## Running Docker images
