@@ -1,1 +1,1 @@
-web: MIX_ENV=heroku mix phoenix.server
+web: MIX_ENV=heroku mix do local.rebar --force, phoenix.server
